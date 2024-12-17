@@ -18,6 +18,9 @@ public:
     explicit JeuxActif(QWidget *parent = nullptr);
     ~JeuxActif();
 
+private slots:
+    void on_pushButtonvalide_clicked();
+
 private:
     Ui::JeuxActif *ui;
 };

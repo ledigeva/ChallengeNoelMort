@@ -11,15 +11,21 @@ CONFIG += c++17
 SOURCES += \
     jeuxactif.cpp \
     main.cpp \
-    jeux.cpp
+    jeux.cpp \
+    resultat.cpp \
+    salleattente.cpp
 
 HEADERS += \
     jeux.h \
-    jeuxactif.h
+    jeuxactif.h \
+    resultat.h \
+    salleattente.h
 
 FORMS += \
     jeux.ui \
-    jeuxactif.ui
+    jeuxactif.ui \
+    resultat.ui \
+    salleattente.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

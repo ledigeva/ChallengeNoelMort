@@ -10,10 +10,13 @@ jeux::jeux(QWidget *parent)
     , ui(new Ui::jeux)
 {
     ui->setupUi(this);
-    ui->labelPseudo->setStyleSheet("color: white");
-    ui->labelMdp->setStyleSheet("color: white");
+    ui->labelPseudo->setStyleSheet("color: white;"
+                                   "background: transparent;");
+    ui->labelMdp->setStyleSheet("color: white;"
+                                "background: transparent;");
     ui->pushButtonLancer->setStyleSheet("color: white");
-    ui->labelIP->setStyleSheet("color: white");
+    ui->labelIP->setStyleSheet("color: white;"
+                               "background: transparent;");
 }
 
 jeux::~jeux()
@@ -25,8 +28,11 @@ void jeux::on_pushButtonLancer_clicked()
 {
 
 
-    jeuxactif = new JeuxActif;
-    jeuxactif->show();
+    salle = new SalleAttente;
+    salle->show();
+
+    // jeuxactif = new JeuxActif;
+    // jeuxactif->show();
 
 
 }

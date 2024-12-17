@@ -1,6 +1,7 @@
 #ifndef JEUX_H
 #define JEUX_H
 
+#include "salleattente.h"
 #include "jeuxactif.h"
 #include <QWidget>
 #include <QLabel>
@@ -26,6 +27,6 @@ private slots:
 
 private:
     Ui::jeux *ui;
-    JeuxActif *jeuxactif;
+    SalleAttente *salle;
 };
 #endif // JEUX_H

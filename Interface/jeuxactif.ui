@@ -218,7 +218,7 @@
      </font>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButtonRelood_2">
+   <widget class="QPushButton" name="pushButtonEnvoyai">
     <property name="geometry">
      <rect>
       <x>880</x>
@@ -240,6 +240,48 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonvalide">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>640</y>
+      <width>421</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Z003</family>
+      <pointsize>35</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Validée</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelEtat">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Z003</family>
+      <pointsize>40</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Etat de la game</string>
     </property>
    </widget>
   </widget>
