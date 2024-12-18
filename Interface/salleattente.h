@@ -3,7 +3,6 @@
 
 #include <QWidget>
 #include "jeuxactif.h"
-#include "jeux.h"
 
 namespace Ui {
 class SalleAttente;

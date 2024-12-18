@@ -1,10 +1,14 @@
 #ifndef JEUXACTIF_H
 #define JEUXACTIF_H
 
+#include "resultat.h"
+
 #include <QWidget>
 #include <QLabel>
 #include <QPixmap>
 #include <QVBoxLayout>
+
+
 
 namespace Ui {
 class JeuxActif;
@@ -23,6 +27,8 @@ private slots:
 
 private:
     Ui::JeuxActif *ui;
+
+    Resultat *resultat;
 };
 
 #endif // JEUXACTIF_H

@@ -1,6 +1,8 @@
 #include "jeuxactif.h"
 #include "ui_jeuxactif.h"
 
+#include <QDebug>
+
 JeuxActif::JeuxActif(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::JeuxActif)
@@ -47,6 +49,8 @@ JeuxActif::~JeuxActif()
 
 void JeuxActif::on_pushButtonvalide_clicked()
 {
-
+    resultat = new Resultat(this);
+    resultat->show();
+    qDebug() << "ujigfiohgikl";
 }
 

@@ -2,7 +2,7 @@
 #define JEUX_H
 
 #include "salleattente.h"
-#include "jeuxactif.h"
+
 #include <QWidget>
 #include <QLabel>
 #include <QPixmap>

@@ -243,6 +243,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonvalide">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>270</x>

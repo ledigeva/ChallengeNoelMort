@@ -28,7 +28,7 @@ void jeux::on_pushButtonLancer_clicked()
 {
 
 
-    salle = new SalleAttente;
+    salle = new SalleAttente(this);
     salle->show();
 
     // jeuxactif = new JeuxActif;
