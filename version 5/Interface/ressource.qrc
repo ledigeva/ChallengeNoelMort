@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/fondConnection.png</file>
+        <file>img/craneArdoise.png</file>
+        <file>img/blanc.avif</file>
+        <file>img/blanc3.png</file>
+        <file>img/challengeNoel.png</file>
+        <file>img/fond3.webp</file>
+        <file>img/avion2.png</file>
+        <file>img/craneArdoise_1.png</file>
+        <file>img/fondDeduction.png</file>
+        <file>img/fonddeduc.webp</file>
+        <file>img/deducModif.png</file>
+        <file>img/DeducMofifFondFini.png</file>
+        <file>img/deduction.png</file>
+        <file>img/carte2.svg</file>
+        <file>img/carte.png</file>
+        <file>img/deductionTableauPartie2.png</file>
+        <file>img/tableauPartie1.png</file>
+    </qresource>
+</RCC>
